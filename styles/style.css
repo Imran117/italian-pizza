@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat';
+}
+header{
+    height:765px;
+    background: url(../images/header_bg.jpg)center/cover no-repeat;
+    
+}
+.header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header_left{
+    padding:30px 0px 0px 165px;
+}
+.header_right{
+    padding:30px 120px;
+    display: flex;
+    align-items: center;
+}
+.header_logo{
+    margin: auto;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding:195px 0px 0px 165px;
+}
+main{
+    color: #ffffff;
+    height: 2540px;
+}
+.main{
+    margin: auto;
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+}
+.main_header{
+    height: 450px;
+    padding-top: 75px;
+    display: flex;
+}
+.main_title{
+    padding-left:35px;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column; 
+}
+.name{
+    padding-top: 70px;
+    display: flex;
+   align-items: center;
+}
+.name span{
+    padding-right:65px;
+}
+.main_block{
+    padding-top: 50px;
+}
+.main_container{
+    display: flex; 
+}
+.retsepture{
+    padding-left:30px;
+    color:#a6a6a6;
+}
+.retsepture_right{
+    padding: 50px 0px 0px 210px;
+    color: #a6a6a6;
+}
+.retsepture_right p{
+    font-weight:200;
+    font-size:30px;
+    padding-bottom: 30px;
+}
+.retsepture_right span{
+    font-weight: 200;
+    font-size: 18px;
+}
+.retsepture_right a{
+    box-shadow:inset 0 20px 7px 0 #69cf17 ;
+    height: 50px;
+    width: 190px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#5db133;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight:200;
+    border-radius:30px;
+}
+.person_main{
+    padding-top:150px;
+    display: flex;
+    justify-content: space-between;
+}
+.the_person{
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.the_person{
+    width: 400px;
+}
+.the_person h4{
+    padding: 30px 0 20px 0;
+    color:#a6a6a6;
+    font-size:14px;
+    font-weight:700;
+}
+.the_person p{
+    color: #a6a6a6;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 200;
+}
+footer{
+    background: black;
+    height: 200px;
+    
+}
+.footer{
+    padding-top:40px;
+    display: flex;
+    justify-content: center;
+    color: #595857;
+}
